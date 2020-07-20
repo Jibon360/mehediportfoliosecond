@@ -1,0 +1,373 @@
+/* font-family: 'Nunito', sans-serif; */
+/* 
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Nunito', sans-serif; */
+
+/* ============================ */
+/* BASIC CSS */
+/* ============================ */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Nunito', sans-serif; 
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color: #6c757d;
+}
+
+
+/* ============================ */
+/* REUSABLE  CSS */
+/* ============================ */
+.sec-bg{
+    background-color: #F8F9FA;
+}
+.sec-padding{
+    padding: 90px 0px;
+}
+.hg-btn {
+	background: #EE8683;
+	color: #fff;
+	padding: 8px 14px;
+	font-weight: 600;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	display: inline;
+}
+.hg-btn:hover{
+    text-decoration: none !important;
+    color: #fff !important;
+}
+
+
+/* ============================ */
+/* HEADER  CSS */
+/* ============================ */
+.navbar-light .navbar-toggler {
+	color: rgba(0,0,0,.5);
+	border-color: rgba(0,0,0,.0);
+}
+nav button i {
+	background: #ee8683;
+	height: 30px;
+	width: 40px;
+	padding-top: 5px;
+	color: #fff;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+nav button{
+    outline: none !important;
+}
+.nav-bg{
+    background: #ffffff;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    color: #000000 !important;
+    box-shadow: 0px 2px rgba(108, 117, 125, 0.1);
+}
+
+nav.nav-bg .navbar-brand{
+    color:#EE8683 !important;
+    font-size: 35px;
+}
+
+
+
+ nav .navbar-brand{
+    color: #fff !important;
+    font-size: 25px;
+    font-weight: 700;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+ nav .navbar-nav .nav-item .nav-link{
+    color: rgba(255, 255, 255, 0.8)  !important;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif; 
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+nav.nav-bg .navbar-nav .nav-item .nav-link{
+    color: #EE8683 !important;
+    font-weight: 600;
+}
+ nav .navbar-nav .nav-item{
+    padding: 20px 8px;
+}
+
+
+/* ============================ */
+/* BANNER  CSS */
+/* ============================ */
+.banner{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    color: #ffffff;
+}
+.banner-caption{
+    max-width: 700px;
+}
+.banner-fluid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.banner-caption h5{
+    font-size: 30px;
+}
+.banner-caption h3{
+    font-weight: 500;
+    font-size: 35px;
+}
+.banner-caption p{
+    font-size: 20px;
+    line-height: 36px;
+    padding: 20px 0px;
+    color: #fff;
+}
+.banner-btn a{
+    color: #fff !important;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 6px 21px;
+    text-decoration: none;
+    
+}
+
+.banner-btn a:hover{
+    text-decoration: none;
+    background: #fff;
+    color: #000000 !important;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+
+.banner-caption span{
+    color: #EE8683;
+}
+.banner-caption h2{
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+/* ============================ */
+/* ABOUT  CSS */
+/* ============================ */
+.about-me span{
+    color: #EE8683;
+}
+.about-me .about-social ul li a i{
+    color: #000000 !important;
+    border: 2px solid #6c757d;
+    height: 40px;
+    width: 40px;
+    text-align:center;
+    line-height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+    font-size: 22px !important;
+}
+.about-me .about-social ul li a i:hover{
+    color: #EE8683 !important;
+    border: 2px solid #EE8683 !important;
+}
+
+
+
+/* ============================ */
+/* SKILL  CSS */
+/* ============================ */
+
+
+.progress {
+	display: -ms-flexbox;
+	display: flex;
+	height: 12px;
+	overflow: hidden;
+	line-height: 0;
+	font-size: 10px !important;
+	background-color: #e9ecef;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+}
+
+.progress-bar {
+	display: -ms-flexbox;
+	display: flex;
+	height: 1rem;
+	overflow: hidden;
+	line-height: 0;
+	font-size: .75rem;
+	background-color: #ee8683;
+	border-radius: .25rem;
+}
+
+.skill label{
+    font-size: 20px;
+    margin: 10px;
+
+}
+
+
+/* ============================ */
+/* SERVICES  CSS */
+/* ============================ */
+
+.services-content {
+	margin: 13px -1px !important;
+}
+
+.services{
+    background-color: #F8F9FA;
+}
+
+.services-content .card {
+	background: #F8F9FA !important;
+	padding: 25px 0px !important;
+}
+
+.services-content i{
+    font-size: 50px;
+}
+.services-content h5{
+    font-weight: 400;
+    font-size: 22px;
+}
+.services-content p{
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.srvices-dash {
+    background: #ee8683;
+    height: 2px;
+    width: 50px;
+    display: block;
+    margin: 10px auto;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+
+.services-content .card-body:hover .srvices-dash{
+    width: 80px;
+
+}
+/* ============================ */
+/* TESTIMONI  CSS */
+/* ============================ */
+.testimony .testi-content img{
+    max-width: 100%;
+    height: 50px;
+    width: 50px;
+    margin: auto;
+}
+.test-name {
+	font-size: 14px;
+}
+
+
+/* ============================ */
+/* WORK  CSS */
+/* ============================ */
+
+.work-content {
+	margin-bottom: 26px;
+}
+
+
+
+.contact-content i{
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+
+
+
+footer{
+    background-color: #333333;
+    padding: 60px 0px;
+}
+
+.footer-social ul li a i {
+    color: #000;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 100%;
+
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+    -ms-transition: .5s all;
+    -o-transition: .5s all;
+}
+.footer-social ul li a i:hover{
+    color: #fff !important;
+    border: 1px solid #e9ecef;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: normal;
+}
